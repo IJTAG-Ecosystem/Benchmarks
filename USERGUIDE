@@ -1,0 +1,197 @@
+This file explains the usage of the Benchmark networks in ICL format!
+
+1. Pay attention to the NameSpace definitions.
+One file can contain multiple NameSpace definitions.
+Thus, module with the same name can be defined under different NameSpaces.
+
+2. Benchmark is a set of ICL files. 
+For every benchmark network we specify a top level Module 
+and a set of ICL files that contain module definitions 
+instantiated in a top level module.
+
+###############################################################################
+3. BASIC set
+###############################################################################
+
+* TreeFlat 
+Top Module 'TreeFlat' in TreeFlat.icl
+ICL Source Files:
+	- .\Basic\TreeFlat.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	
+* TreeFlat_Ex
+Top Module 'TreeFlat_Ex' in TreeFlat_Ex.icl
+ICL Source Files: 
+	- .\Basic\TreeFlat_Ex.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	- .\ITC02\EmptyModule.icl
+	- .\ITC02\G1023.icl
+	
+* TreeBalanced
+Top Module 'TreeBalanced' in TreeBalanced.icl
+ICL Source Files: 
+	- .\Basic\TreeBalanced.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	- .\ITC02\EmptyModule.icl
+	- .\ITC02\H953.icl
+
+* TreeUnbalanced
+Top Module 'TreeUnbalanced' in TreeUnbalanced.icl
+ICL Source Files: 
+	- .\Basic\TreeUnbalanced.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	- .\ITC02\EmptyModule.icl
+	- .\ITC02\A586710.icl
+
+* BasicSCB
+Top Module 'BasicSCB' in BasicSCB.icl
+ICL Source Files: 
+	- .\Basic\BasicSCB.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	
+* Mingle
+Top Module 'Mingle' in Mingle.icl
+ICL Source Files:
+	- .\Basic\Mingle.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	
+###############################################################################
+4. CLASSIC set
+###############################################################################
+* p93791
+Top Module 'M0' in p93791.icl
+ICL Source Files: 
+	- .\Classic\p93791.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	- .\ITC02\EmptyModule.icl
+
+* p34392
+Top Module 'M0' in p34392.icl
+ICL Source Files: 
+	- .\Classic\p34392.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	- .\ITC02\EmptyModule.icl
+
+* p22810	
+Top Module 'M0' in p22810.icl
+ICL Source Files: 
+	- .\Classic\p22810.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	- .\ITC02\EmptyModule.icl
+
+* q12710	
+Top Module 'M0' in q12710.icl
+ICL Source Files: 
+	- .\Classic\q12710.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	- .\ITC02\EmptyModule.icl
+	
+* a586710	
+Top Module 'M0' in a586710.icl
+ICL Source Files: 
+	- .\Classic\a586710.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	- .\ITC02\EmptyModule.icl
+	
+* t512505	
+Top Module 'M0' in t512505.icl
+ICL Source Files: 
+	- .\Classic\t512505.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	- .\ITC02\EmptyModule.icl
+
+###############################################################################	
+5. STANDARD set
+###############################################################################
+* SOC_DAP_3D	
+Top Module 'SOC_DAP_3D' in SOC_DAP.icl
+ICL Source Files:
+	- .\Standard\SOC_DAP.icl
+	- .\Standard\CAD.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+
+* MultiTAP	
+Top Module 'MultiTAP' in MultiTAP.icl
+ICL Source Files:
+	- .\Standard\MultiTAP.icl
+	- .\ITC02\A586710.icl
+	- .\ITC02\EmptyModule.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl
+	- .\ITC02\EmptyModule.icl	
+
+* MultiCoreAccessLink	
+Top Module 'MultiCoreAccessLink' in MultiCoreAccessLink.icl
+ICL Source Files:
+	- .\Standard\MultiCoreAccessLink.icl
+	- .\E30.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl	
+	- .\ITC02\EmptyModule.icl
+	
+* Kernel	
+Top Module 'Kernel' in Kernel.icl
+ICL Source Files:
+	- .\Standard\Kernel.icl
+	- .\Standard\SOC_DAP.icl
+	- .\Standard\CAD.icl
+	- .\Standard\MultiTAP.icl
+	- .\ITC02\A586710.icl
+	- .\ITC02\EmptyModule.icl
+	- .\E30.icl
+	- .\Standard\MultiCoreAccessLink.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl	
+	
+###############################################################################	
+6. ADVANCED set
+###############################################################################	
+
+* FlexScan	
+Top Module 'FlexScan' in FlexScan.icl
+ICL Source Files:
+	- .\Advanced\FlexScan.icl
+	- .\ScanCell.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl	
+
+* TrapOrFlap
+Top Module TrapOrFlap in TrapOrFlap.icl
+ICL Source Files:
+	- .\Advanced\TrapOrFlap.icl
+	- .\ScanCell.icl
+	- .\Instruments.icl
+	- .\NetworkStructs.icl	
+
+* N132D4
+- TO BE ADDED
+
+* N17D3
+- TO BE ADDED
+
+* N32D6
+- TO BE ADDED
+
+* N73D14
+- TO BE ADDED
+
+* NE1200P430
+- TO BE ADDED
+
+* NE600P150
+- TO BE ADDED
+
+
