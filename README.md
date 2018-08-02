@@ -10,7 +10,7 @@ This Suite of IEEE Std 1687 benchmark networks addressing the following two key 
 Authors: Anton Tšertov1, Artur Jutman1, Sergei Devadze1, Matteo Sonza Reorda2, Erik Larsson3, Farrokh Ghani Zadegan4, Riccardo Cantoro2,  Mehrdad Montazeri2 and Rene Krenz-Baath5
 
 1 Testonica Lab, Tallinn, Estonia; {anton, artur, sergey}@testonica.com
-2  Politecnico di Torino, Italy; {matteo.sonzareorda, riccardo.cantoro, mehrdad.montazeri}@polito.it
-3 Lund University, Sweden; erik.larsson@eith.lth.se
-4 Linköping University, Sweden; ghanizadegan@ieee.org
-5 Hochschule Hamm-Lippstadt, Germany; rene.krenz-baath@hshl.de
+2  Politecnico di Torino, Italy;
+3 Lund University, Sweden; 
+4 Linköping University, Sweden;
+5 Hochschule Hamm-Lippstadt, Germany; 
