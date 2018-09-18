@@ -1,4 +1,4 @@
-# Benchmarks
+# Benchmarks - deprected. Moved to https://gitlab.com/IJTAG
 A Suite of IEEE 1687 Benchmark Networks
 
 This Suite of IEEE Std 1687 benchmark networks addressing the following two key aspects. First of all, our goal is to provide challenging examples for the research community to enable validation, comparison and improvement of various algorithms (such as retargeting or scheduling). Secondly, we aim at exhibiting the full scope of the IEEE 1687 standard and the respective ICL format in order to provide a reference for parsers and other tools that need to support various IEEE 1687 constructs and possible network architectures. Some of the proposed benchmarks are based on the popular ITC'02 set of abstract scan designs.
